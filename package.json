@@ -1,0 +1,25 @@
+{
+  "name": "custom-fold",
+  "version": "1.0.0",
+  "description": "Coding challenge Fold",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manoovau/custom-fold.git"
+  },
+  "author": "manoovau",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/manoovau/custom-fold/issues"
+  },
+  "homepage": "https://github.com/manoovau/custom-fold#readme",
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "typescript": "^4.3.2"
+  }
+}
